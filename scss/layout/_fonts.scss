@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+ @include  font-face('icomoon', 'fonts/icomoon/icomoon', $ver: '?xydpsj');
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tooltip:before {
+  content: "\e900";
+}
+.icon-basket:before {
+  content: "\e901";
+}
+.icon-card:before {
+  content: "\e902";
+}
